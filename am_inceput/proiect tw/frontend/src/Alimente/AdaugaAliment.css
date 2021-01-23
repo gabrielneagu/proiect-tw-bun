@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+  
+.formAdaugaA {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        width: 50%;
+}
+
+.labelAdaugaA {
+    padding: 12px 12px 12px 0;
+    font-family: Tahoma;
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.inputAdaugaA {
+    width: 20%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: Tahoma;
+    float: left;
+    margin-top: 6px;
+}
+
+.btnAdauga {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.btnAdaugaA:hover {
+  background-color: #45a049;
+}
+
+.rowAdaugaA:after {
+    content: "";
+    display: table;
+    clear: both;
+}
